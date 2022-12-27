@@ -1,0 +1,15 @@
+/* Sass variables */
+$buttons-border-color: rgb(215, 195, 195);
+$Buttons-border-radius: 0px;
+$Buttons-color: (
+  "primary": rgb(138, 25, 25)
+);
+$buttons-width: 100px;
+
+/* Sass styles */
+button {
+  color: $Buttons-color;
+  border-radius: $Buttons-border-radius;
+  border-style: 5px solid white;
+  width: $buttons-width;
+}
