@@ -256,66 +256,81 @@
       <h3 class="heading-shadow fs-2 mb-5"><b>Mein Sevice</b></h3>
     </div>
     <div class="container bg-light">
-      <div class="row pt-0 p-5">
-        <!-- Card 1 -->
-        <div class="col-3">
-          <div class="card text-center p-2 border-0 bg-transparent card-hover">
-            <div class="card-body">
-              <img src="images/icons/team.png" alt="Service icon">
-              <p class="h4 font-weight-normal mt-3">Project Management</p>
-              <span class="caption text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
-                itaque. Corrupti
-                id quas quos
-                tempore
-                nisi! Ut, nobis quaerat at doloribus</span>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Card 1 -->
+          <div class="swiper-slide">
+            <div class="card text-center p-2 border-0 bg-transparent card-hover">
+              <div class="card-body">
+                <img src="images/icons/team.png" alt="Service icon">
+                <p class="h4 font-weight-normal mt-3">Project Management</p>
+                <span class="caption text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+                  itaque. Corrupti
+                  id quas quos
+                  tempore
+                  nisi! Ut, nobis quaerat at doloribus</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="swiper-slide">
+            <div class="card text-center p-2 border-0 bg-transparent card-hover">
+              <div class="card-body">
+                <img src="images/icons/content.png" alt="Service icon">
+                <p class="h4 font-weight-normal mt-3">Content creation</p>
+                <span class="caption text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+                  itaque. Corrupti
+                  id quas quos
+                  tempore
+                  nisi! Ut, nobis quaerat at doloribus</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="swiper-slide">
+            <div class="card text-center p-2 border-0 bg-transparent card-hover">
+              <div class="card-body">
+                <img src="images/icons/layers.png" alt="Service icon">
+                <p class="h4 font-weight-normal mt-3">UI Design</p>
+                <span class="caption text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+                  itaque. Corrupti
+                  id quas quos
+                  tempore
+                  nisi! Ut, nobis quaerat at doloribus</span>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="swiper-slide">
+            <div class="card text-center p-2 border-0 bg-transparent card-hover">
+              <div class="card-body">
+                <img src="images/icons/www.png" alt="Service icon">
+                <p class="h4 font-weight-normal mt-3">Web Design</p>
+                <span class="caption text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+                  itaque. Corrupti
+                  id quas quos
+                  tempore
+                  nisi! Ut, nobis quaerat at doloribus</span>
+              </div>
             </div>
           </div>
         </div>
-        <!-- Card 2 -->
-        <div class="col-3">
-          <div class="card text-center p-2 border-0 bg-transparent card-hover">
-            <div class="card-body">
-              <img src="images/icons/content.png" alt="Service icon">
-              <p class="h4 font-weight-normal mt-3">Content creation</p>
-              <span class="caption text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
-                itaque. Corrupti
-                id quas quos
-                tempore
-                nisi! Ut, nobis quaerat at doloribus</span>
-            </div>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="col-3">
-          <div class="card text-center p-2 border-0 bg-transparent card-hover">
-            <div class="card-body">
-              <img src="images/icons/layers.png" alt="Service icon">
-              <p class="h4 font-weight-normal mt-3">UI Design</p>
-              <span class="caption text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
-                itaque. Corrupti
-                id quas quos
-                tempore
-                nisi! Ut, nobis quaerat at doloribus</span>
-            </div>
-          </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="col-3">
-          <div class="card text-center p-2 border-0 bg-transparent card-hover">
-            <div class="card-body">
-              <img src="images/icons/www.png" alt="Service icon">
-              <p class="h4 font-weight-normal mt-3">Web Design</p>
-              <span class="caption text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
-                itaque. Corrupti
-                id quas quos
-                tempore
-                nisi! Ut, nobis quaerat at doloribus</span>
-            </div>
-          </div>
-        </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </main>
+  <!-- Swiper.js Script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    new Swiper(".swiper-container", {
+      loop: true,
+      slidesPerView: 4,
+      spaceBetween: 25, 
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
 </body>
 
 </html>
