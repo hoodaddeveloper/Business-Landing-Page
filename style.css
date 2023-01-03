@@ -26,9 +26,19 @@
   width: 26%;
   height: 74%;
   left: 68%;
-  top: 118%;
+  top: 117%;
   z-index: -1;
 }
+
+/* Image shadow 
+.image-shadow {
+  position: absolute;
+  width: 400px;
+  height: 570px;
+  left: 1100px;
+  top: 900px;
+  z-index: -1;
+} */
 
 /* Headings background */
 .heading-shadow {
