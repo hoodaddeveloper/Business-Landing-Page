@@ -3,5 +3,13 @@ var iso = new Isotope(".portfolio .grid", {
 });
 
 document.querySelectorAll(".portfolio .filters span").forEach(item => {
-  item.addEventListener("click", () => iso.arrange({ filter: item.getAttribute("data-filter") }))
+  item.addEventListener("click", () => {
+    /* Change font weight when I click on filters */
+    document.querySelectorAll(".portfolio .filters span").forEach(i => i.classList.remove("fw-bold"));
+    item.classList.add("fw-bold");
+    /* Images animation */
+    iso.arrange({ filter: item.getAttribute("data-filter") });
+  });
 });
+
+
