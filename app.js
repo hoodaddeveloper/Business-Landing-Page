@@ -1,3 +1,4 @@
+/* Isotope codes */
 var iso = new Isotope(".portfolio .grid", {
   itemSelector: ".grid-item",
 });
