@@ -264,40 +264,40 @@
       <div class="container mb-3 d-flex justify-content-center">
         <h3 class="heading-shadow fs-2 mb-5"><b>Meine letzte Projekte</b></h3>
       </div>
-      <div class="col mb-5 text-center">
-        <span class="me-4 fw-bold fs-5">Alle Projekte</span>
-        <span class="mx-4 fw-bold fs-5">Web Design</span>
-        <span class="mx-4 fw-bold fs-5">App Design</span>
-        <span class="ms-4 fw-bold fs-5">UI Design</span>
+      <div class="filters col mb-5 text-center">
+        <span data-filter="*" class="me-4 fw-bold fs-5">Alle Projekte</span>
+        <span data-filter="*" class="mx-4 fs-5">Web Design</span>
+        <span data-filter="*" class="mx-4 fs-5">App Design</span>
+        <span data-filter="*" class="ms-4 fs-5">UI Design</span>
       </div>
       <!-- Images -->
       <div class="row grid">
 
-        <div class="col-4 mb-4 grid-item">
+        <div class="col-4 mb-4 grid-item app">
           <img src="images/portfolio/project 1.png" alt="Project cover">
         </div>
 
-        <div class="col-4 mb-4 grid-item">
+        <div class="col-4 mb-4 grid-item web">
           <img src="images/portfolio/project 2.png" alt="Project cover">
         </div>
 
-        <div class="col-4 mb-4 grid-item">
+        <div class="col-4 mb-4 grid-item app ui">
           <img src="images/portfolio/project 3.png" alt="Project cover">
         </div>
 
-        <div class="col-4 mb-4 grid-item">
+        <div class="col-4 mb-4 grid-item web ui">
           <img src="images/portfolio/project 4.png" alt="Project cover">
         </div>
 
-        <div class="col-4 mb-4 grid-item">
+        <div class="col-4 mb-4 grid-item ui">
           <img src="images/portfolio/project 5.png" alt="Project cover">
         </div>
 
-        <div class="col-4 mb-4 grid-item">
+        <div class="col-4 mb-4 grid-item app">
           <img src="images/portfolio/project 6.png" alt="Project cover">
         </div>
 
-        <div class="col-4 mb-4 grid-item">
+        <div class="col-4 mb-4 grid-item web">
           <img src="images/portfolio/project 7.png" alt="Project cover">
         </div>
 
@@ -305,9 +305,10 @@
     </div>
     </div>
   </main>
+  <!-- Isotope plugin CDN -->
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!-- Isotope plugin codes -->
   <script>
-    /* Isotope Plugin */
     var iso = new Isotope(".portfolio .grid", {
       itemSelector: ".grid-item",
     });

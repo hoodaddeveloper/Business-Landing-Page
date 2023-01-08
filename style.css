@@ -66,3 +66,7 @@
 .grid img {
   width: 100%;
 }
+
+.filters span {
+  cursor: pointer;
+}
