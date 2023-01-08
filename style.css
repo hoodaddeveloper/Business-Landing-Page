@@ -62,3 +62,8 @@
   transition: all 200ms;
   cursor: pointer;
 }
+
+/* Project cover images */
+.img img {
+  width: 100%;
+}
