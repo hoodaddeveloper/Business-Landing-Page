@@ -1,13 +1,13 @@
 /* Social media icons */
 .social-item {
-  border: 2px solid;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 50px;
   height: 50px;
+  display: flex;
   margin-top: 20%;
+  border: 2px solid;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Header bottom left corner */
@@ -22,29 +22,29 @@
 
 /* Image shadow */
 .image-shadow {
-  position: absolute;
-  width: 26%;
-  height: 74%;
   left: 68%;
   top: 117%;
+  width: 26%;
   z-index: -1;
+  height: 74%;
+  position: absolute;
 }
 
 /* Image shadow 
 .image-shadow {
-  position: absolute;
-  width: 400px;
-  height: 570px;
-  left: 1100px;
   top: 900px;
   z-index: -1;
+  width: 400px;
+  left: 1100px;
+  height: 570px;
+  position: absolute;
 } */
 
 /* Headings background */
 .heading-shadow {
-  background: url(../images/txt-shadow.png);
-  background-repeat: no-repeat;
   padding-top: .2em;
+  background-repeat: no-repeat;
+  background: url(../images/txt-shadow.png);
 }
 
 /* Progress bar */
@@ -56,10 +56,10 @@
 
 /* Hovering cards */
 .card-hover:hover {
-  background: white !important;
-  box-shadow: 0 1em 1em #0001;
-  transition: all 200ms;
   cursor: pointer;
+  transition: all 200ms;
+  box-shadow: 0 1em 1em #0001;
+  background: white !important;
 }
 
 /* Project cover images */
@@ -99,21 +99,15 @@
 }
 
 .card {
-  background-color: #FFF;
   padding: 30px;
+  background-color: #FFF;
 }
 
 .card-content {
   display: flex;
-  padding: 10px 10ßpx;
+  padding: 10px 10px;
   align-items: center;
   flex-direction: column;
-}
-
-.name {
-  color: #333;
-  font-size: 18px;
-  font-weight: 500;
 }
 
 .description {
