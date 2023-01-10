@@ -100,7 +100,7 @@
 
 .card {
   padding: 30px;
-  background-color: #FFF;
+  background: #FFF;
 }
 
 .card-content {
@@ -111,7 +111,7 @@
 }
 
 .description {
-  font-size: 14px;
+  font-size: 18px;
   color: #707070;
   text-align: center;
 }
