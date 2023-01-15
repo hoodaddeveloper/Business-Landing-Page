@@ -44,11 +44,7 @@
 .heading-shadow {
   font-size: 2em;
   padding-top: .2em;
-  font-weight: bold;
-  padding-top: 0.2em;
-  padding-right: 0.8em;
-  background-repeat: no-repeat;
-  background-position-x: right;
+  background-repeat: no-repeat !important;
   background: url(../images/txt-shadow.png);
 }
 
