@@ -73,7 +73,7 @@
 }
 
 /* Card body underline */
-.card-body:after {
+.resume .card-body:after {
   bottom: 0;
   content: "";
   height: 4px;
@@ -88,7 +88,26 @@
 .image-container {
   padding-top: 25%;
   border-radius: 50%;
+  position: relative;
   border: 3px solid black;
+}
+
+.background {
+  left: 3%;
+  bottom: 3%;
+  width: 94%;
+  height: 94%;
+  position: absolute;
+  border-radius: 50%;
+  background: #eeeeee;
+}
+
+.background img {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 /* Slide & Swiper styles */
