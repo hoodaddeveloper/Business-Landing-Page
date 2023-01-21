@@ -85,6 +85,12 @@
   border-top-right-radius: 4px;
 }
 
+.image-container {
+  padding-top: 25%;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
 /* Slide & Swiper styles */
 
 /* Google Fonts - Poppins */
