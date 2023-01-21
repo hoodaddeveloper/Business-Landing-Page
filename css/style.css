@@ -72,6 +72,19 @@
   cursor: pointer;
 }
 
+/* Card body underline */
+.card-body:after {
+  bottom: 0;
+  content: "";
+  height: 4px;
+  left: 1.25rem;
+  right: 1.25rem;
+  position: absolute;
+  background: black;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
 /* Slide & Swiper styles */
 
 /* Google Fonts - Poppins */
